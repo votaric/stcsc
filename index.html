@@ -1,25 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AppAIO</title>
+  <title>My App</title>
 </head>
-<body>
+<body style="margin:0; padding:0; overflow:hidden;">
   <iframe 
-    src="https://script.google.com/macros/s/AKfycbx6DsevluBKnG_QEvUJMiswPbZn3mahjYJsS8HLeF3YflX_dgWZmf0IveE1fxKkpgso/exec"
-    width="100%"
-    height="100%"
-    allowfullscreen="true"
-    style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+    src="https://dan.votaric6518.workers.dev/"
+    width="100%" 
+    height="100%" 
+    style="position:fixed; top:0; left:0; width:100%; height:100%; border:none;">
   </iframe>
-
-  <script>
-    window.onload = function() {
-      document.querySelector('iframe')
-        .requestFullscreen()
-        .catch((err) => {
-          console.error('Error attempting to enable full-screen mode:', err.message);
-        });
-    };
-  </script>
 </body>
 </html>
